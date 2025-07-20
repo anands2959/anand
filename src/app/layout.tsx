@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://vibecoding.com",
     title: "Vibe Coding | Professional Web Developer Portfolio",
-    description: "Professional portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 10+ years of experience.",
+    description: "Professional portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 3+ years of experience.",
     siteName: "Vibe Coding",
     images: [{
       url: "/logo.png",
