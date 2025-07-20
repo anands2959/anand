@@ -19,7 +19,7 @@ const projects: Project[] = [
     title: 'BotFusion - AI Chatbot Solution',
     description: 'A comprehensive task management system with real-time updates, team collaboration features, and performance analytics.',
     image: '/logo.png',
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'Chart.js'],
+    technologies: ['Next.js', 'MongoDB', 'Tailwind CSS', 'TypeScript', 'ChatGPT API', 'GenAI API', 'Vercel'],
     githubUrl: 'https://github.com/anands2959/botfusion',
     liveUrl: 'https://botfusion-ten.vercel.app/'
   },

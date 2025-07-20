@@ -50,6 +50,7 @@ export function Navbar() {
             <Link href="#education" className="nav-link">Education</Link>
             <Link href="#achievements" className="nav-link">Achievements</Link>
             <Link href="#projects" className="nav-link">Projects</Link>
+            {/* <Link href="#testimonials" className="nav-link">Testimonials</Link> */}
             <Link href="#contact" className="nav-link">Contact</Link>
           </nav>
 
@@ -138,6 +139,13 @@ export function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Projects
+            </Link>
+            <Link 
+              href="#testimonials" 
+              className="mobile-nav-link"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Testimonials
             </Link>
             <Link 
               href="#contact" 
