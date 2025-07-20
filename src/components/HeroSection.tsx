@@ -84,7 +84,7 @@ export function HeroSection() {
                 Get in Touch
               </motion.a>
               <motion.a 
-                href="/resume.pdf" 
+                href="https://drive.google.com/file/d/1J13aHj8glD02KVJxAEYQYAbgaxCgNr9u/view?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-secondary"
