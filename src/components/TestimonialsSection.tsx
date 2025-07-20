@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
     role: 'ServiceNow Developer',
     company: 'Now Compiler',
     image: '/logo.png', // Replace with actual testimonial images
-    text: '“Anand transformed our online presence with a sleek, responsive website. Their attention to detail and smooth execution exceeded our expectations!',
+    text: 'Anand transformed our online presence with a sleek, responsive website. Their attention to detail and smooth execution exceeded our expectations!',
     rating: 4,
   },
   {
@@ -130,7 +130,7 @@ export function TestimonialsSection() {
           </h2>
           <div className="w-20 h-1 bg-[#00c3cf] mx-auto mb-6"></div>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Don't just take my word for it - here's what my clients have to say about working with me.
+            Don&apos;t just take my word for it - here&apos;s what my clients have to say about working with me.
           </p>
         </motion.div>
 
@@ -176,7 +176,7 @@ export function TestimonialsSection() {
                       </div>
                     </div>
                     <div>
-                      <p className="text-gray-300 italic">"{testimonial.text}"</p>
+                      <p className="text-gray-300 italic">&ldquo;{testimonial.text}&rdquo;</p> 
                     </div>
                   </div>
                 </motion.div>
