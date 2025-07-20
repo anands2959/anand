@@ -1,0 +1,106 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="noise" seed="24"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.05 0" />
+    </filter>
+    
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c3cf" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#22132b" stop-opacity="0"/>
+    </linearGradient>
+    
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00c3cf" stroke-width="0.2" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base layer with noise -->
+  <rect width="100%" height="100%" fill="#22132b" filter="url(#noise)" opacity="0.3"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="100%" height="100%" fill="url(#grad1)" opacity="0.7"/>
+  
+  <!-- Grid pattern overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Code-like elements -->
+  <g opacity="0.1">
+    <!-- Code block 1 -->
+    <rect x="100" y="100" width="200" height="120" rx="5" fill="#1a0f22"/>
+    <path d="M120,130 L280,130 M120,160 L220,160 M120,190 L250,190" stroke="#00c3cf" stroke-width="2"/>
+    
+    <!-- Code block 2 -->
+    <rect x="1100" y="300" width="240" height="140" rx="5" fill="#1a0f22"/>
+    <path d="M1120,330 L1320,330 M1120,360 L1280,360 M1120,390 L1300,390 M1120,420 L1250,420" stroke="#00c3cf" stroke-width="2"/>
+    
+    <!-- Code block 3 -->
+    <rect x="400" y="600" width="220" height="130" rx="5" fill="#1a0f22"/>
+    <path d="M420,630 L600,630 M420,660 L550,660 M420,690 L580,690 M420,720 L500,720" stroke="#00c3cf" stroke-width="2"/>
+    
+    <!-- Code block 4 -->
+    <rect x="800" y="700" width="260" height="150" rx="5" fill="#1a0f22"/>
+    <path d="M820,730 L1040,730 M820,760 L980,760 M820,790 L1020,790 M820,820 L950,820 M820,850 L1000,850" stroke="#00c3cf" stroke-width="2"/>
+    
+    <!-- Browser window 1 -->
+    <rect x="500" y="200" width="300" height="200" rx="5" fill="#1a0f22"/>
+    <rect x="500" y="200" width="300" height="30" rx="5" fill="#00c3cf" opacity="0.3"/>
+    <circle cx="520" cy="215" r="5" fill="#00c3cf"/>
+    <circle cx="540" cy="215" r="5" fill="#00c3cf"/>
+    <circle cx="560" cy="215" r="5" fill="#00c3cf"/>
+    <rect x="520" y="250" width="260" height="10" rx="2" fill="#00c3cf" opacity="0.3"/>
+    <rect x="520" y="270" width="200" height="10" rx="2" fill="#00c3cf" opacity="0.3"/>
+    <rect x="520" y="290" width="240" height="10" rx="2" fill="#00c3cf" opacity="0.3"/>
+    <rect x="520" y="310" width="180" height="10" rx="2" fill="#00c3cf" opacity="0.3"/>
+    <rect x="520" y="330" width="220" height="10" rx="2" fill="#00c3cf" opacity="0.3"/>
+    <rect x="520" y="350" width="160" height="10" rx="2" fill="#00c3cf" opacity="0.3"/>
+    
+    <!-- Mobile device -->
+    <rect x="900" y="150" width="120" height="200" rx="10" fill="#1a0f22"/>
+    <rect x="910" y="170" width="100" height="140" rx="2" fill="#00c3cf" opacity="0.1"/>
+    <circle cx="960" cy="330" r="10" fill="#00c3cf" opacity="0.3"/>
+  </g>
+  
+  <!-- Circuit-like patterns -->
+  <g opacity="0.07">
+    <path d="M0,300 L200,300 L200,400 L400,400 L400,200 L600,200 L600,500 L800,500 L800,300 L1000,300 L1000,600 L1200,600 L1200,400 L1440,400" stroke="#00c3cf" stroke-width="1" fill="none"/>
+    <path d="M0,700 L300,700 L300,600 L500,600 L500,800 L700,800 L700,500 L900,500 L900,700 L1100,700 L1100,400 L1300,400 L1300,600 L1440,600" stroke="#00c3cf" stroke-width="1" fill="none"/>
+    
+    <circle cx="200" cy="300" r="5" fill="#00c3cf"/>
+    <circle cx="200" cy="400" r="5" fill="#00c3cf"/>
+    <circle cx="400" cy="400" r="5" fill="#00c3cf"/>
+    <circle cx="400" cy="200" r="5" fill="#00c3cf"/>
+    <circle cx="600" cy="200" r="5" fill="#00c3cf"/>
+    <circle cx="600" cy="500" r="5" fill="#00c3cf"/>
+    <circle cx="800" cy="500" r="5" fill="#00c3cf"/>
+    <circle cx="800" cy="300" r="5" fill="#00c3cf"/>
+    <circle cx="1000" cy="300" r="5" fill="#00c3cf"/>
+    <circle cx="1000" cy="600" r="5" fill="#00c3cf"/>
+    <circle cx="1200" cy="600" r="5" fill="#00c3cf"/>
+    <circle cx="1200" cy="400" r="5" fill="#00c3cf"/>
+    
+    <circle cx="300" cy="700" r="5" fill="#00c3cf"/>
+    <circle cx="300" cy="600" r="5" fill="#00c3cf"/>
+    <circle cx="500" cy="600" r="5" fill="#00c3cf"/>
+    <circle cx="500" cy="800" r="5" fill="#00c3cf"/>
+    <circle cx="700" cy="800" r="5" fill="#00c3cf"/>
+    <circle cx="700" cy="500" r="5" fill="#00c3cf"/>
+    <circle cx="900" cy="500" r="5" fill="#00c3cf"/>
+    <circle cx="900" cy="700" r="5" fill="#00c3cf"/>
+    <circle cx="1100" cy="700" r="5" fill="#00c3cf"/>
+    <circle cx="1100" cy="400" r="5" fill="#00c3cf"/>
+    <circle cx="1300" cy="400" r="5" fill="#00c3cf"/>
+    <circle cx="1300" cy="600" r="5" fill="#00c3cf"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="5%" cy="5%" r="50" fill="#00c3cf" opacity="0.03"/>
+  <circle cx="95%" cy="95%" r="70" fill="#00c3cf" opacity="0.03"/>
+  
+  <!-- Abstract tech shapes -->
+  <g opacity="0.05">
+    <path d="M100,900 L150,850 L200,900 L150,950 Z" fill="#00c3cf"/>
+    <path d="M1300,100 L1350,50 L1400,100 L1350,150 Z" fill="#00c3cf"/>
+    <path d="M700,450 L750,400 L800,450 L750,500 Z" fill="#00c3cf"/>
+  </g>
+</svg>

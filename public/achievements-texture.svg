@@ -1,0 +1,105 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="noise" seed="33"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.05 0" />
+    </filter>
+    
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c3cf" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#22132b" stop-opacity="0"/>
+    </linearGradient>
+    
+    <pattern id="stars" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Small star -->
+      <path d="M50,40 L52,46 L58,46 L53,50 L55,56 L50,52 L45,56 L47,50 L42,46 L48,46 Z" fill="#00c3cf" opacity="0.2"/>
+      <!-- Tiny star -->
+      <path d="M20,70 L21,73 L24,73 L22,75 L23,78 L20,76 L17,78 L18,75 L16,73 L19,73 Z" fill="#00c3cf" opacity="0.15"/>
+      <!-- Medium star -->
+      <path d="M80,20 L82,28 L90,28 L84,33 L86,41 L80,36 L74,41 L76,33 L70,28 L78,28 Z" fill="#00c3cf" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base layer with noise -->
+  <rect width="100%" height="100%" fill="#22132b" filter="url(#noise)" opacity="0.4"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="100%" height="100%" fill="url(#grad1)" opacity="0.6"/>
+  
+  <!-- Star pattern overlay -->
+  <rect width="100%" height="100%" fill="url(#stars)" opacity="0.7"/>
+  
+  <!-- Trophy silhouettes -->
+  <g opacity="0.04">
+    <!-- Trophy 1 -->
+    <path d="M200,200 L220,200 L220,230 C240,235 255,250 255,270 C255,295 235,315 210,315 C185,315 165,295 165,270 C165,250 180,235 200,230 Z" fill="#00c3cf"/>
+    <rect x="195" y="315" width="30" height="15" fill="#00c3cf"/>
+    <rect x="205" y="330" width="10" height="20" fill="#00c3cf"/>
+    <rect x="190" y="350" width="40" height="10" fill="#00c3cf"/>
+    
+    <!-- Trophy 2 -->
+    <path d="M1000,400 L1020,400 L1020,430 C1040,435 1055,450 1055,470 C1055,495 1035,515 1010,515 C985,515 965,495 965,470 C965,450 980,435 1000,430 Z" fill="#00c3cf"/>
+    <rect x="995" y="515" width="30" height="15" fill="#00c3cf"/>
+    <rect x="1005" y="530" width="10" height="20" fill="#00c3cf"/>
+    <rect x="990" y="550" width="40" height="10" fill="#00c3cf"/>
+    
+    <!-- Medal 1 -->
+    <circle cx="400" cy="700" r="40" fill="#00c3cf"/>
+    <path d="M400,660 L410,640 L390,640 Z" fill="#00c3cf"/>
+    <rect x="395" y="620" width="10" height="20" fill="#00c3cf"/>
+    
+    <!-- Medal 2 -->
+    <circle cx="800" cy="300" r="40" fill="#00c3cf"/>
+    <path d="M800,260 L810,240 L790,240 Z" fill="#00c3cf"/>
+    <rect x="795" y="220" width="10" height="20" fill="#00c3cf"/>
+    
+    <!-- Certificate -->
+    <rect x="1200" y="700" width="100" height="70" rx="5" fill="#00c3cf"/>
+    <path d="M1200,710 L1300,710 M1200,730 L1300,730 M1200,750 L1250,750" stroke="#22132b" stroke-width="2" opacity="0.3"/>
+  </g>
+  
+  <!-- Confetti particles -->
+  <g opacity="0.1">
+    <rect x="100" y="100" width="10" height="10" fill="#00c3cf" transform="rotate(45, 105, 105)"/>
+    <rect x="300" y="200" width="8" height="8" fill="#00c3cf" transform="rotate(20, 304, 204)"/>
+    <rect x="500" y="150" width="12" height="12" fill="#00c3cf" transform="rotate(60, 506, 156)"/>
+    <rect x="700" y="400" width="6" height="6" fill="#00c3cf" transform="rotate(10, 703, 403)"/>
+    <rect x="900" y="300" width="10" height="10" fill="#00c3cf" transform="rotate(80, 905, 305)"/>
+    <rect x="1100" y="500" width="8" height="8" fill="#00c3cf" transform="rotate(30, 1104, 504)"/>
+    <rect x="1300" y="200" width="12" height="12" fill="#00c3cf" transform="rotate(50, 1306, 206)"/>
+    <rect x="200" y="600" width="6" height="6" fill="#00c3cf" transform="rotate(15, 203, 603)"/>
+    <rect x="400" y="500" width="10" height="10" fill="#00c3cf" transform="rotate(75, 405, 505)"/>
+    <rect x="600" y="700" width="8" height="8" fill="#00c3cf" transform="rotate(25, 604, 704)"/>
+    <rect x="800" y="600" width="12" height="12" fill="#00c3cf" transform="rotate(55, 806, 606)"/>
+    <rect x="1000" y="800" width="6" height="6" fill="#00c3cf" transform="rotate(5, 1003, 803)"/>
+    <rect x="1200" y="400" width="10" height="10" fill="#00c3cf" transform="rotate(85, 1205, 405)"/>
+    <rect x="150" y="350" width="8" height="8" fill="#00c3cf" transform="rotate(35, 154, 354)"/>
+    <rect x="350" y="650" width="12" height="12" fill="#00c3cf" transform="rotate(65, 356, 656)"/>
+    <rect x="550" y="450" width="6" height="6" fill="#00c3cf" transform="rotate(15, 553, 453)"/>
+    <rect x="750" y="750" width="10" height="10" fill="#00c3cf" transform="rotate(70, 755, 755)"/>
+    <rect x="950" y="550" width="8" height="8" fill="#00c3cf" transform="rotate(40, 954, 554)"/>
+    <rect x="1150" y="650" width="12" height="12" fill="#00c3cf" transform="rotate(60, 1156, 656)"/>
+    <rect x="1350" y="450" width="6" height="6" fill="#00c3cf" transform="rotate(20, 1353, 453)"/>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="10%" cy="10%" r="80" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="90%" cy="90%" r="100" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="50%" cy="50%" r="200" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.05"/>
+  
+  <!-- Radial lines -->
+  <g opacity="0.05">
+    <path d="M720,512 L720,412" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L810,462" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L770,602" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L630,562" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L670,422" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L820,512" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L770,422" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L820,562" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L720,612" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L630,462" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L670,602" stroke="#00c3cf" stroke-width="0.5"/>
+    <path d="M720,512 L620,512" stroke="#00c3cf" stroke-width="0.5"/>
+  </g>
+</svg>

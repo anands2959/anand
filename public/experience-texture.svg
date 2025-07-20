@@ -1,0 +1,91 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3" result="noise" seed="42"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.05 0" />
+    </filter>
+    
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#00c3cf" opacity="0.2"/>
+    </pattern>
+    
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0f22" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#22132b" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Base layer with noise -->
+  <rect width="100%" height="100%" fill="#22132b" filter="url(#noise)" opacity="0.3"/>
+  
+  <!-- Dot pattern overlay -->
+  <rect width="100%" height="100%" fill="url(#dots)" opacity="0.5"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="100%" height="100%" fill="url(#grad1)" opacity="0.4"/>
+  
+  <!-- Hexagon pattern for tech/professional feel -->
+  <g opacity="0.07">
+    <!-- Row 1 -->
+    <path d="M50,86.6 L100,0 L200,0 L250,86.6 L200,173.2 L100,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M250,86.6 L300,0 L400,0 L450,86.6 L400,173.2 L300,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M450,86.6 L500,0 L600,0 L650,86.6 L600,173.2 L500,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M650,86.6 L700,0 L800,0 L850,86.6 L800,173.2 L700,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M850,86.6 L900,0 L1000,0 L1050,86.6 L1000,173.2 L900,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1050,86.6 L1100,0 L1200,0 L1250,86.6 L1200,173.2 L1100,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1250,86.6 L1300,0 L1400,0 L1450,86.6 L1400,173.2 L1300,173.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    
+    <!-- Row 2 -->
+    <path d="M-50,259.8 L0,173.2 L100,173.2 L150,259.8 L100,346.4 L0,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M150,259.8 L200,173.2 L300,173.2 L350,259.8 L300,346.4 L200,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M350,259.8 L400,173.2 L500,173.2 L550,259.8 L500,346.4 L400,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M550,259.8 L600,173.2 L700,173.2 L750,259.8 L700,346.4 L600,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M750,259.8 L800,173.2 L900,173.2 L950,259.8 L900,346.4 L800,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M950,259.8 L1000,173.2 L1100,173.2 L1150,259.8 L1100,346.4 L1000,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1150,259.8 L1200,173.2 L1300,173.2 L1350,259.8 L1300,346.4 L1200,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1350,259.8 L1400,173.2 L1500,173.2 L1550,259.8 L1500,346.4 L1400,346.4 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    
+    <!-- Row 3 -->
+    <path d="M50,433 L100,346.4 L200,346.4 L250,433 L200,519.6 L100,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M250,433 L300,346.4 L400,346.4 L450,433 L400,519.6 L300,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M450,433 L500,346.4 L600,346.4 L650,433 L600,519.6 L500,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M650,433 L700,346.4 L800,346.4 L850,433 L800,519.6 L700,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M850,433 L900,346.4 L1000,346.4 L1050,433 L1000,519.6 L900,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1050,433 L1100,346.4 L1200,346.4 L1250,433 L1200,519.6 L1100,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1250,433 L1300,346.4 L1400,346.4 L1450,433 L1400,519.6 L1300,519.6 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    
+    <!-- Row 4 -->
+    <path d="M-50,606.2 L0,519.6 L100,519.6 L150,606.2 L100,692.8 L0,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M150,606.2 L200,519.6 L300,519.6 L350,606.2 L300,692.8 L200,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M350,606.2 L400,519.6 L500,519.6 L550,606.2 L500,692.8 L400,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M550,606.2 L600,519.6 L700,519.6 L750,606.2 L700,692.8 L600,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M750,606.2 L800,519.6 L900,519.6 L950,606.2 L900,692.8 L800,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M950,606.2 L1000,519.6 L1100,519.6 L1150,606.2 L1100,692.8 L1000,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1150,606.2 L1200,519.6 L1300,519.6 L1350,606.2 L1300,692.8 L1200,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1350,606.2 L1400,519.6 L1500,519.6 L1550,606.2 L1500,692.8 L1400,692.8 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    
+    <!-- Row 5 -->
+    <path d="M50,779.4 L100,692.8 L200,692.8 L250,779.4 L200,866 L100,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M250,779.4 L300,692.8 L400,692.8 L450,779.4 L400,866 L300,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M450,779.4 L500,692.8 L600,692.8 L650,779.4 L600,866 L500,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M650,779.4 L700,692.8 L800,692.8 L850,779.4 L800,866 L700,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M850,779.4 L900,692.8 L1000,692.8 L1050,779.4 L1000,866 L900,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1050,779.4 L1100,692.8 L1200,692.8 L1250,779.4 L1200,866 L1100,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1250,779.4 L1300,692.8 L1400,692.8 L1450,779.4 L1400,866 L1300,866 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    
+    <!-- Row 6 -->
+    <path d="M-50,952.6 L0,866 L100,866 L150,952.6 L100,1039.2 L0,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M150,952.6 L200,866 L300,866 L350,952.6 L300,1039.2 L200,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M350,952.6 L400,866 L500,866 L550,952.6 L500,1039.2 L400,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M550,952.6 L600,866 L700,866 L750,952.6 L700,1039.2 L600,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M750,952.6 L800,866 L900,866 L950,952.6 L900,1039.2 L800,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M950,952.6 L1000,866 L1100,866 L1150,952.6 L1100,1039.2 L1000,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1150,952.6 L1200,866 L1300,866 L1350,952.6 L1300,1039.2 L1200,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+    <path d="M1350,952.6 L1400,866 L1500,866 L1550,952.6 L1500,1039.2 L1400,1039.2 Z" stroke="#00c3cf" fill="none" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Accent elements -->
+  <circle cx="10%" cy="20%" r="50" fill="#00c3cf" opacity="0.03"/>
+  <circle cx="90%" cy="80%" r="70" fill="#00c3cf" opacity="0.03"/>
+  <circle cx="50%" cy="50%" r="200" fill="#00c3cf" opacity="0.01"/>
+</svg>

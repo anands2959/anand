@@ -1,0 +1,46 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise" seed="15"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.05 0" />
+    </filter>
+    
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c3cf" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#22132b" stop-opacity="0"/>
+    </linearGradient>
+    
+    <radialGradient id="grad2" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+      <stop offset="0%" stop-color="#00c3cf" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#22132b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Base layer with noise -->
+  <rect width="100%" height="100%" fill="#22132b" filter="url(#noise)" opacity="0.4"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="100%" height="100%" fill="url(#grad1)" opacity="0.7"/>
+  
+  <!-- Radial gradient for spotlight effect -->
+  <circle cx="70%" cy="30%" r="500" fill="url(#grad2)" opacity="0.5"/>
+  
+  <!-- Subtle grid pattern -->
+  <path d="M0 20 H1440 M0 60 H1440 M0 100 H1440 M0 140 H1440 M0 180 H1440 M0 220 H1440 M0 260 H1440 M0 300 H1440 M0 340 H1440 M0 380 H1440 M0 420 H1440 M0 460 H1440 M0 500 H1440 M0 540 H1440 M0 580 H1440 M0 620 H1440 M0 660 H1440 M0 700 H1440 M0 740 H1440 M0 780 H1440 M0 820 H1440 M0 860 H1440 M0 900 H1440 M0 940 H1440 M0 980 H1440 M0 1020 H1440" stroke="#00c3cf" stroke-width="0.2" opacity="0.1"/>
+  
+  <path d="M20 0 V1024 M60 0 V1024 M100 0 V1024 M140 0 V1024 M180 0 V1024 M220 0 V1024 M260 0 V1024 M300 0 V1024 M340 0 V1024 M380 0 V1024 M420 0 V1024 M460 0 V1024 M500 0 V1024 M540 0 V1024 M580 0 V1024 M620 0 V1024 M660 0 V1024 M700 0 V1024 M740 0 V1024 M780 0 V1024 M820 0 V1024 M860 0 V1024 M900 0 V1024 M940 0 V1024 M980 0 V1024 M1020 0 V1024 M1060 0 V1024 M1100 0 V1024 M1140 0 V1024 M1180 0 V1024 M1220 0 V1024 M1260 0 V1024 M1300 0 V1024 M1340 0 V1024 M1380 0 V1024 M1420 0 V1024" stroke="#00c3cf" stroke-width="0.2" opacity="0.1"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="5%" cy="10%" r="100" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="5%" cy="10%" r="50" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.2"/>
+  
+  <circle cx="95%" cy="90%" r="120" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="95%" cy="90%" r="60" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.2"/>
+  
+  <!-- Abstract tech lines -->
+  <path d="M0,100 Q720,300 1440,100" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <path d="M0,300 Q720,500 1440,300" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <path d="M0,500 Q720,700 1440,500" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <path d="M0,700 Q720,900 1440,700" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+  <path d="M0,900 Q720,1100 1440,900" fill="none" stroke="#00c3cf" stroke-width="0.5" opacity="0.1"/>
+</svg>
