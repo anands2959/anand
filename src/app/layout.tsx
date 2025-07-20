@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Vibe Coding | Anand Kumar Sharma",
-  description:  "portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 10+ years of experience.",
+  description:  "portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 3+ years of experience.",
   keywords: ["web developer", "frontend developer", "UI/UX designer", "portfolio", "React developer", "Next.js", "Gen AI engineer", 'nodejs' , 'mongodb', 'typescript', 'react', 'nextjs', 'tailwindcss', 'vercel', 'AWS'],
   authors: [{ name: "Anand Kumar Sharma" }],
   creator: "Anand Kumar Sharma",
