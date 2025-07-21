@@ -47,7 +47,7 @@ export function Navbar() {
             <Link href="#home" className="nav-link">Home</Link>
             <Link href="#about" className="nav-link">About</Link>
             <Link href="#experience" className="nav-link">Experience</Link>
-            <Link href="#education" className="nav-link">Education</Link>
+            <Link href="#services" className="nav-link">Services</Link>
             <Link href="#achievements" className="nav-link">Achievements</Link>
             <Link href="#projects" className="nav-link">Projects</Link>
             {/* <Link href="#testimonials" className="nav-link">Testimonials</Link> */}
@@ -120,11 +120,11 @@ export function Navbar() {
               Experience
             </Link>
             <Link 
-              href="#education" 
+              href="#services" 
               className="mobile-nav-link"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Education
+              Services
             </Link>
             <Link 
               href="#achievements" 

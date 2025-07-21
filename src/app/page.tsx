@@ -2,7 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
-import { EducationSection } from "@/components/EducationSection";
+import { ServicesSection } from "@/components/ServicesSection";
 import { AchievementsSection } from "@/components/AchievementsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
@@ -17,7 +17,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ExperienceSection />
-        <EducationSection />
+        <ServicesSection />
         <AchievementsSection />
         <ProjectsSection />
         <TestimonialsSection />

@@ -23,15 +23,26 @@ export function ContactSection() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     try {
-      // In a real application, you would send the form data to your backend or a form service
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      // Send form data to the API route
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        setSubmitStatus('error');
+        console.error('Form submission failed');
+      }
     } catch (error) {
       setSubmitStatus('error');
-      console.log(error);
+      console.error('Error submitting form:', error);
     } finally {
       setIsSubmitting(false);
       // Reset status after 5 seconds
@@ -78,7 +89,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-200 mb-1">Email</h4>
-                  <a href="mailto:contact@vibecoding.com" className="text-gray-400 hover:text-[#00c3cf] transition-colors">
+                  <a href="mailto:anands2959@gmail.com" className="text-gray-400 hover:text-[#00c3cf] transition-colors">
                     anands2959@gmail.com
                   </a>
                 </div>
@@ -216,13 +227,13 @@ export function ContactSection() {
               
               {submitStatus === 'success' && (
                 <div className="mt-4 p-3 bg-green-100 text-green-700 rounded-lg">
-                  Your message has been sent successfully! I&apos;ll get back to you soon.
+                  Your message has been sent successfully to my email! I&apos;ll get back to you soon.
                 </div>
               )}
               
               {submitStatus === 'error' && (
                 <div className="mt-4 p-3 bg-red-100 text-red-700 rounded-lg">
-                  There was an error sending your message. Please try again later.
+                  There was an error sending your email. Please try again later or contact me directly at anands2959@gmail.com.
                 </div>
               )}
             </form>

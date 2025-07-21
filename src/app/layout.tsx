@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vibecoding.com",
+    url: "https://anandsharma.info",
     title: "Vibe Coding | Professional Web Developer Portfolio",
     description: "Professional portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 3+ years of experience.",
     siteName: "Vibe Coding",

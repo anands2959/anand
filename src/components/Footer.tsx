@@ -117,7 +117,7 @@ export function Footer() {
                 Grasim Colony Renukoot, Sonebhadra (UP) - 231217
               </li>
               <li>
-                <a href="mailto:contact@vibecoding.com" className="text-gray-400 hover:text-[#00c3cf] transition-colors duration-300">
+                <a href="mailto:anands2959@gmail.com" className="text-gray-400 hover:text-[#00c3cf] transition-colors duration-300">
                   anands2959@gmail.com
                 </a>
               </li>

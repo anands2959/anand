@@ -2,14 +2,14 @@ const fs = require('fs');
 const path = require('path');
 
 // Define your website URL
-const WEBSITE_URL = 'https://vibecoding.com';
+const WEBSITE_URL = 'https://anandsharma.info';
 
 // Define your routes
 const routes = [
   '',
   '#about',
   '#experience',
-  '#education',
+  '#services',
   '#achievements',
   '#projects',
   '#testimonials',
