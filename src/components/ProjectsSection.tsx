@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     title: 'BotFusion - AI Chatbot Solution',
     description: 'A comprehensive task management system with real-time updates, team collaboration features, and performance analytics.',
-    image: '/logo.png',
+    image: '/project/botfusion2.png',
     technologies: ['Next.js', 'MongoDB', 'Tailwind CSS', 'TypeScript', 'ChatGPT API', 'GenAI API', 'Vercel'],
     githubUrl: 'https://github.com/anands2959/botfusion',
     liveUrl: 'https://botfusion-ten.vercel.app/'
@@ -26,7 +26,7 @@ const projects: Project[] = [
   {
     title: 'NextHire - AI Interview Bot',
     description: 'Built a real-time interview simulator using AI to generate and evaluate technical interview questions. Integrated OpenAI, developed frontend UI, and deployed a working MVP',
-    image: '/logo.png',
+    image: '/project/nexthire.png',
     technologies: ['Next.js', 'Node.js', 'Firebase', 'Vapi', 'ChatGPT API'],
     githubUrl: 'https://github.com/anands2959/nexthire_ai',
     liveUrl: 'https://nexthire.anandsharma.info/nexthire'
@@ -34,7 +34,7 @@ const projects: Project[] = [
   {
     title: 'E-Commerce Platform',
     description: 'A full-featured e-commerce platform with product catalog, shopping cart, and payment integration. Built with Next.js and Tailwind CSS.',
-    image: '/logo.png',
+    image: '/project/akx.png',
     technologies: ['Next.js', 'Node.js', 'Tailwind CSS', 'Razorpay API', 'MongoDB'],
     githubUrl: 'https://github.com',
     liveUrl: 'https://akxbrand.com'
@@ -42,7 +42,7 @@ const projects: Project[] = [
   {
     title: 'GenioAI - AI Content Generator',
     description: 'An AI-powered application that generates content for blogs, Image, and Video materials. Utilizes OpenAI API, Stable Diffusion API, and Hugging Face API.',
-    image: '/logo.png',
+    image: '/project/akx.png',
     technologies: ['React', 'TypeScript', 'OpenAI API', 'Framer Motion'],
     githubUrl: 'https://github.com/anands2959/genio.ai',
     liveUrl: 'https://genio-ai-two.vercel.app/'
@@ -104,8 +104,8 @@ export function ProjectsSection() {
                   <Image
                     src={project.image}
                     alt={project.title}
-                    fill
-                    className="object-cover"
+                    layout='fill'
+                    className="object-contain"
                   />
                 </motion.div>
                 

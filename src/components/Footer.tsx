@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaTwitter, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaDribbble, FaCodepen } from 'react-icons/fa';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,7 +16,7 @@ export function Footer() {
             <Link href="/" className="flex items-center mb-4">
               <div className="relative h-30 w-50 mr-2">
                 <Image 
-                  src="/logo3.png" 
+                  src="/logo.png" 
                   alt="Vibe Coding Logo" 
                   fill
                   className="object-contain"
@@ -29,7 +29,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/anands2959" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#00c3cf] transition-colors duration-300"
@@ -38,7 +38,7 @@ export function Footer() {
                 <FaGithub className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://linkedin.com/in/anands2959" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#00c3cf] transition-colors duration-300"
@@ -46,7 +46,7 @@ export function Footer() {
               >
                 <FaLinkedin className="h-6 w-6" />
               </a>
-              <a 
+              {/* <a 
                 href="https://twitter.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -54,15 +54,15 @@ export function Footer() {
                 aria-label="Twitter Profile"
               >
                 <FaTwitter className="h-6 w-6" />
-              </a>
+              </a> */}
               <a 
-                href="https://dribbble.com" 
+                href="https://codepen.io/anands2959" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#00c3cf] transition-colors duration-300"
-                aria-label="Dribbble Profile"
+                aria-label="CodePen Profile"
               >
-                <FaDribbble className="h-6 w-6" />
+                <FaCodepen className="h-6 w-6" />
               </a>
             </div>
           </div>

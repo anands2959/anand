@@ -31,7 +31,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center">
             <div className="relative h-15 w-20 mr-2">
               <Image 
-                src="/logo3.png" 
+                src="/logo.png" 
                 alt="Vibe Coding Logo" 
                 fill 
                 className="object-contain"
