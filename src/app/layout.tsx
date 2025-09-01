@@ -61,7 +61,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Script src="https://botfusion-ten.vercel.app/embed.js" data-chatbot-id="bf_4d737812e5f5fd92aed94b90eef4ff74" strategy="afterInteractive"></Script>
+        <Script src="https://botfusion-ten.vercel.app/embed.js" data-chatbot-id="bf_02480b5d799f014ef7728a23dddae6dd" strategy="afterInteractive"></Script>
       </body>
     </html>
   );
