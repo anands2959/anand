@@ -32,7 +32,7 @@ export function Navbar() {
             <div className="relative h-15 w-20 mr-2">
               <Image 
                 src="/logo.png" 
-                alt="Vibe Coding Logo" 
+                alt="Anand Sharma" 
                 fill 
                 className="object-contain"
               />
