@@ -119,7 +119,7 @@ export function HeroSection() {
                 alt="Anand Sharma - Developer" 
                 fill
                 className="object-cover"
-                priority
+                loading="lazy"
               />
             </motion.div>
           </motion.div>
