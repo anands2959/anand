@@ -15,23 +15,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vibe Coding | Anand Kumar Sharma",
-  description: "portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 3+ years of experience.",
-  keywords: ["web developer", "frontend developer", "UI/UX designer", "portfolio", "React developer", "Next.js", "Gen AI engineer", 'nodejs', 'mongodb', 'typescript', 'react', 'nextjs', 'tailwindcss', 'vercel', 'AWS'],
+  title: "Anand Kumar Sharma | Developer",
+  description: "portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 4+ years of experience.",
+  keywords: ["web developer", "frontend developer","vibe coding", "UI/UX designer", "portfolio", "React developer", "Next.js", "Gen AI engineer", 'nodejs', 'mongodb', 'typescript', 'react', 'nextjs', 'tailwindcss', 'vercel', 'AWS', 'GenAI', "Desktop", "Application", "Website", "App", "Software", "Ecommerce", "Portfolio"],
   authors: [{ name: "Anand Kumar Sharma" }],
   creator: "Anand Kumar Sharma",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://anandsharma.info",
-    title: "Vibe Coding | Professional Web Developer Portfolio",
+    title: "Anand | Professional Web Developer Portfolio",
     description: "Professional portfolio of Anand Sharma, a web/mobile app developer, Gen AI engineer, and UI/UX designer with 3+ years of experience.",
-    siteName: "Vibe Coding",
+    siteName: "Anand",
     images: [{
       url: "/logo.png",
       width: 1200,
       height: 630,
-      alt: "Vibe Coding"
+      alt: "Anand"
     }],
   },
 
