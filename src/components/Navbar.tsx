@@ -31,7 +31,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center">
             <div className="relative h-15 w-15 mr-2">
               <Image 
-                src="/logoheader.png" 
+                src="/logoheader2.png" 
                 alt="Anand Sharma" 
                 fill 
                 className="object-contain"
