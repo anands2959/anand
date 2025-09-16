@@ -29,9 +29,9 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="relative h-15 w-20 mr-2">
+            <div className="relative h-15 w-15 mr-2">
               <Image 
-                src="/logo.png" 
+                src="/logoheader.png" 
                 alt="Anand Sharma" 
                 fill 
                 className="object-contain"
