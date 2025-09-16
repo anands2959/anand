@@ -26,10 +26,10 @@ export function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#1a0f22]/90 backdrop-blur-md shadow-md' : 'bg-transparent'}`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 sm:h-20">
+        <div className="flex items-center justify-between h-16 sm:h-18">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="relative h-10 w-10 mr-2">
+            <div className="relative h-15 w-15 mr-2">
               <Image 
                 src="/logoheader2.png" 
                 alt="Anand Sharma" 
