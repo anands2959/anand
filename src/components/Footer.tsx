@@ -131,7 +131,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-[#22132b] mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} Vibe Coding. All rights reserved.</p>
+          <p>&copy; {currentYear} Anand Kumar Sharma. All rights reserved.</p>
         </div>
       </div>
     </footer>
